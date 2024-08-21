@@ -32,7 +32,7 @@ jobs:
           coverage xml
 
       - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@v1.12
+        uses: sonarsource/sonarcloud-github-action@master
         with:
           args: >
             -Dsonar.organization=chagantikusumithaa
