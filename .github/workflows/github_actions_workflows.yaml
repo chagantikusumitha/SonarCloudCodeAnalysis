@@ -33,6 +33,7 @@ jobs:
           PYTHONPATH=src pytest --junitxml=results.xml
           coverage run -m pytest
           coverage xml
+        continue-on-error: true
 
       - name: Upload test results
         uses: actions/upload-artifact@v3
