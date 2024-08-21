@@ -13,4 +13,4 @@ def test_multiply_numbers():
     assert multiply_numbers(2, 3) == 6
     assert multiply_numbers(-1, 1) == -1
     assert multiply_numbers(0, 5) == 0
-    assert multiply_numbers(0, 5) == 5
+    #assert multiply_numbers(0, 5) == 5
