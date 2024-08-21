@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest --junitxml=results.xml
+          PYTHONPATH=src pytest --junitxml=results.xml
           coverage run -m pytest
           coverage xml
 
